@@ -1,0 +1,50 @@
+*{
+  /* border: 1px solid red; */
+}
+
+.big-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mainapp-container{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  
+  
+}
+
+.nav-container{
+  flex-grow: 1;
+  margin-right: 100px;
+ 
+  
+
+}
+
+.content-grow{
+  margin-top: 15px;
+  border: 1px solid gray;
+  padding: 40px;
+  
+}
+
+.navBar-Item{
+  list-style: none;
+  background-color: lightgray;
+  border: 1px solid gray;
+  padding: 10px 10px 10px;
+}
+
+.list-container{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
